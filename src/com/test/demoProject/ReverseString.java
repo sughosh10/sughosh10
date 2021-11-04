@@ -20,7 +20,12 @@ public class ReverseString {
 		System.out.println(reverse);
 	}
 
-	
+	public StringBuffer StringRevWithStringBuffer(String word2)
+	{
+		StringBuffer strbuf = new StringBuffer(word2);
+		
+		return strbuf.reverse();
+	}
 
 	
 
